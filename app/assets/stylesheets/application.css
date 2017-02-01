@@ -1,0 +1,44 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway');
+
+body {
+    background:#fae3e3;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    text-transform: capitalize;
+    color:#646566;
+    padding-bottom:15px;
+}
+
+p {
+    font-family: 'Raleway';
+    color: #7a7979;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.form {
+    margin-left:400px;
+    margin-top:200px;
+}
+
+.form img {
+    padding-top:50px;
+}

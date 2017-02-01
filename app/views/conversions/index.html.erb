@@ -1,0 +1,10 @@
+<div class="form">
+    <h1>Size Converter</h1>
+    <%= form_tag(conversions_path) do %>
+    <%= text_field_tag 'size' %>
+    <%= select_tag 'from', options_for_select(SizeConverter::Sizes::ALL) %>
+    <%= select_tag 'to', options_for_select(SizeConverter::Sizes::ALL) %>
+    <%= submit_tag 'Convert' %>
+    <% end %>
+    <%= image_tag("tape.png", :alt => "tape") %>
+</div>
