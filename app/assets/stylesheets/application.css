@@ -26,6 +26,9 @@ h1 {
     color:#646566;
     padding-bottom:15px;
 }
+img {
+    width:30%;
+}
 
 p {
     font-family: 'Raleway';
@@ -39,6 +42,6 @@ p {
     margin-top:200px;
 }
 
-.form img {
-    padding-top:50px;
-}
+/*.form img {*/
+/*    padding-top:50px;*/
+/*}*/
